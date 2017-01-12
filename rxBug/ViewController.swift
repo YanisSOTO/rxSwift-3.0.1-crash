@@ -36,7 +36,6 @@ class ViewController: UIViewController{
     }
 
     func setSubView() {
-        collectionView.numberOfItems(inSection: 0)
         if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout{
             let size = layout.itemSize
             let scale = 1000 / 320
